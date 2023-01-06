@@ -1,0 +1,584 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!200 &20000000
+ShaderVariantCollection:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: NewShaderVariants
+  m_Shaders:
+  - first: {fileID: 7, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: DIRECTIONAL
+        passType: 4
+      - keywords: POINT
+        passType: 5
+      - keywords: 
+        passType: 6
+      - keywords: 
+        passType: 7
+      - keywords: 
+        passType: 10
+      - keywords: 
+        passType: 11
+  - first: {fileID: 66, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: DIRECTIONAL
+        passType: 4
+      - keywords: POINT
+        passType: 5
+      - keywords: 
+        passType: 8
+      - keywords: SHADOWS_DEPTH
+        passType: 8
+      - keywords: SHADOWS_DEPTH _ALPHATEST_ON _METALLICGLOSSMAP _PARALLAXMAP
+        passType: 8
+      - keywords: 
+        passType: 10
+      - keywords: 
+        passType: 11
+  - first: {fileID: 6, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 1
+      - keywords: 
+        passType: 2
+      - keywords: 
+        passType: 8
+  - first: {fileID: 50, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 1
+      - keywords: 
+        passType: 2
+      - keywords: SHADOWS_DEPTH
+        passType: 8
+  - first: {fileID: 106, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: _SUNDISK_SIMPLE
+        passType: 0
+  - first: {fileID: 203, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 10490, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 9000, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9001, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9002, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9003, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9004, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9007, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9101, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9103, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 10623, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: SHADOWS_DEPTH
+        passType: 8
+      - keywords: SHADOWS_DEPTH _ALPHATEST_ON _NORMALMAP
+        passType: 8
+      - keywords: SHADOWS_DEPTH _NORMALMAP
+        passType: 8
+  - first: {fileID: 4800000, guid: c17132b1f77d20942aa75f8429c0f8bc, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: d6dae50ee9e1bfa4db75f19f99355220, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 65df88701913c224d95fc554db28381a, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: e7857e9d0c934dc4f83f270f8447b006, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: _BLOOM_LQ _TONEMAP_NEUTRAL
+        passType: 0
+  - first: {fileID: 4800000, guid: e6e9a19c3678ded42a3bc431ebef7dbd, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 0849e84e3d62649e8882e9d6f056a017, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: _ORTHOGRAPHIC _RECONSTRUCT_NORMAL_LOW _SOURCE_DEPTH_NORMALS
+        passType: 0
+      - keywords: _ORTHOGRAPHIC _SOURCE_DEPTH_NORMALS
+        passType: 0
+      - keywords: _SOURCE_DEPTH_NORMALS
+        passType: 0
+  - first: {fileID: 4800000, guid: 5f1864addb451f54bae8c86d230f736e, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 8
+      - keywords: _ALPHATEST_ON
+        passType: 8
+      - keywords: _CASTING_PUNCTUAL_LIGHT_SHADOW
+        passType: 8
+      - keywords: 
+        passType: 13
+      - keywords: DIRLIGHTMAP_COMBINED LIGHTMAP_ON _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS
+          _EMISSION _MAIN_LIGHT_SHADOWS _METALLICSPECGLOSSMAP _NORMALMAP _REFLECTION_PROBE_BLENDING
+          _REFLECTION_PROBE_BOX_PROJECTION _SCREEN_SPACE_OCCLUSION
+        passType: 13
+      - keywords: DIRLIGHTMAP_COMBINED LIGHTMAP_ON _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS
+          _EMISSION _MAIN_LIGHT_SHADOWS _METALLICSPECGLOSSMAP _REFLECTION_PROBE_BLENDING
+          _REFLECTION_PROBE_BOX_PROJECTION _SCREEN_SPACE_OCCLUSION
+        passType: 13
+      - keywords: DIRLIGHTMAP_COMBINED LIGHTMAP_ON _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS
+          _EMISSION _MAIN_LIGHT_SHADOWS _REFLECTION_PROBE_BLENDING _REFLECTION_PROBE_BOX_PROJECTION
+          _SCREEN_SPACE_OCCLUSION
+        passType: 13
+      - keywords: DIRLIGHTMAP_COMBINED LIGHTMAP_ON _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS
+          _MAIN_LIGHT_SHADOWS _NORMALMAP _REFLECTION_PROBE_BLENDING _REFLECTION_PROBE_BOX_PROJECTION
+          _SCREEN_SPACE_OCCLUSION
+        passType: 13
+      - keywords: DIRLIGHTMAP_COMBINED LIGHTMAP_ON _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS
+          _MAIN_LIGHT_SHADOWS _NORMALMAP _REFLECTION_PROBE_BLENDING _REFLECTION_PROBE_BOX_PROJECTION
+          _SCREEN_SPACE_OCCLUSION _SURFACE_TYPE_TRANSPARENT
+        passType: 13
+      - keywords: DIRLIGHTMAP_COMBINED LIGHTMAP_ON _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS
+          _MAIN_LIGHT_SHADOWS _REFLECTION_PROBE_BLENDING _REFLECTION_PROBE_BOX_PROJECTION
+          _SCREEN_SPACE_OCCLUSION
+        passType: 13
+      - keywords: DIRLIGHTMAP_COMBINED LIGHTMAP_ON _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS
+          _MAIN_LIGHT_SHADOWS _REFLECTION_PROBE_BLENDING _REFLECTION_PROBE_BOX_PROJECTION
+          _SCREEN_SPACE_OCCLUSION _SURFACE_TYPE_TRANSPARENT
+        passType: 13
+      - keywords: DIRLIGHTMAP_COMBINED LIGHTMAP_ON _ADDITIONAL_LIGHTS _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: DIRLIGHTMAP_COMBINED LIGHTMAP_ON _ADDITIONAL_LIGHTS _MAIN_LIGHT_SHADOWS
+          _NORMALMAP
+        passType: 13
+      - keywords: _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS _EMISSION _MAIN_LIGHT_SHADOWS
+          _METALLICSPECGLOSSMAP _NORMALMAP _PARALLAXMAP _REFLECTION_PROBE_BLENDING
+          _REFLECTION_PROBE_BOX_PROJECTION _SCREEN_SPACE_OCCLUSION
+        passType: 13
+      - keywords: _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS _EMISSION _MAIN_LIGHT_SHADOWS
+          _REFLECTION_PROBE_BLENDING _REFLECTION_PROBE_BOX_PROJECTION _SCREEN_SPACE_OCCLUSION
+        passType: 13
+      - keywords: _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS
+          _NORMALMAP _REFLECTION_PROBE_BLENDING _REFLECTION_PROBE_BOX_PROJECTION
+          _SCREEN_SPACE_OCCLUSION
+        passType: 13
+      - keywords: _ADDITIONAL_LIGHTS _MAIN_LIGHT_SHADOWS _NORMALMAP _PARALLAXMAP
+        passType: 13
+      - keywords: _NORMALMAP
+        passType: 13
+      - keywords: _NORMALMAP _PARALLAXMAP
+        passType: 13
+  - first: {fileID: 4800000, guid: 69c1f799e772cb6438f56c23efccb782, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 8
+      - keywords: _CASTING_PUNCTUAL_LIGHT_SHADOW
+        passType: 8
+      - keywords: 
+        passType: 13
+      - keywords: DIRLIGHTMAP_COMBINED LIGHTMAP_ON _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS
+          _MAIN_LIGHT_SHADOWS _REFLECTION_PROBE_BLENDING _SCREEN_SPACE_OCCLUSION
+        passType: 13
+      - keywords: DIRLIGHTMAP_COMBINED LIGHTMAP_ON _ADDITIONAL_LIGHTS _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS
+          _REFLECTION_PROBE_BLENDING _SCREEN_SPACE_OCCLUSION
+        passType: 13
+      - keywords: _ADDITIONAL_LIGHTS _MAIN_LIGHT_SHADOWS
+        passType: 13
+  - first: {fileID: 4800000, guid: 36e335017ad71d54fbb10842863188ae, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 082e1cdd8dc7e59458c1610ae31474fd, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 4
+      - keywords: DIRECTIONAL
+        passType: 4
+      - keywords: POINT
+        passType: 5
+      - keywords: 
+        passType: 8
+      - keywords: SHADOWS_DEPTH UNITY_PASS_SHADOWCASTER
+        passType: 8
+      - keywords: 
+        passType: 10
+      - keywords: 
+        passType: 11
+  - first: {fileID: 4800000, guid: 5da53576b4282ab4088b7b23d647db7d, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: fb301a0881a17dc4f81ec80aa2386621, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL
+        passType: 4
+      - keywords: POINT
+        passType: 5
+      - keywords: 
+        passType: 8
+      - keywords: SHADOWS_DEPTH
+        passType: 8
+      - keywords: SHADOWS_DEPTH _ALPHATEST_ON _METALLICGLOSSMAP _PARALLAXMAP
+        passType: 8
+      - keywords: SHADOWS_DEPTH _METALLICGLOSSMAP _PARALLAXMAP
+        passType: 8
+      - keywords: 
+        passType: 10
+      - keywords: 
+        passType: 11
+  - first: {fileID: 4800000, guid: 0a49c278a531cbe41b9553e2255e4a64, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL UNITY_PASS_FORWARDBASE
+        passType: 4
+      - keywords: POINT UNITY_PASS_FORWARDADD
+        passType: 5
+      - keywords: 
+        passType: 8
+      - keywords: SHADOWS_DEPTH UNITY_PASS_SHADOWCASTER
+        passType: 8
+  - first: {fileID: 4800000, guid: 7f8aedba35eef094392e94a8fc246c0a, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 4
+      - keywords: DIRECTIONAL
+        passType: 4
+      - keywords: POINT
+        passType: 5
+      - keywords: 
+        passType: 8
+      - keywords: SHADOWS_DEPTH UNITY_PASS_SHADOWCASTER
+        passType: 8
+      - keywords: 
+        passType: 10
+      - keywords: 
+        passType: 11
+  - first: {fileID: 4800000, guid: a112c6ff817a33d499797b6740760c06, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL
+        passType: 4
+      - keywords: POINT
+        passType: 5
+      - keywords: SHADOWS_DEPTH
+        passType: 8
+      - keywords: 
+        passType: 10
+      - keywords: 
+        passType: 11
+  - first: {fileID: 4800000, guid: 97be251cce188d24e8b7834460ad92a7, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 4
+      - keywords: DIRECTIONAL
+        passType: 4
+      - keywords: POINT
+        passType: 5
+      - keywords: 
+        passType: 8
+      - keywords: SHADOWS_DEPTH
+        passType: 8
+      - keywords: 
+        passType: 11
+  - first: {fileID: 4800000, guid: 4fcdbfaf53178ba408af08a17cd03207, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL
+        passType: 4
+      - keywords: POINT
+        passType: 5
+      - keywords: 
+        passType: 10
+      - keywords: 
+        passType: 11
+  - first: {fileID: 4800000, guid: 69100d0a5f49f824ca0620c47caf37e2, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 4
+      - keywords: DIRECTIONAL
+        passType: 4
+      - keywords: POINT
+        passType: 5
+      - keywords: 
+        passType: 8
+      - keywords: SHADOWS_DEPTH
+        passType: 8
+      - keywords: 
+        passType: 10
+      - keywords: 
+        passType: 11
+  - first: {fileID: 4800000, guid: 82735fcc7d6a72641b31576be0552266, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL
+        passType: 4
+      - keywords: POINT
+        passType: 5
+      - keywords: SHADOWS_DEPTH
+        passType: 8
+      - keywords: 
+        passType: 10
+      - keywords: 
+        passType: 11
+  - first: {fileID: 4800000, guid: c922fee5601fa9a45a77efc3f9aa8dba, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL
+        passType: 4
+      - keywords: POINT
+        passType: 5
+      - keywords: SHADOWS_DEPTH
+        passType: 8
+      - keywords: 
+        passType: 10
+      - keywords: 
+        passType: 11
+  - first: {fileID: 4800000, guid: 5baea07adf270224da53ed0c3324abe5, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 4
+      - keywords: DIRECTIONAL
+        passType: 4
+      - keywords: POINT
+        passType: 5
+      - keywords: 
+        passType: 10
+      - keywords: 
+        passType: 11
+  - first: {fileID: 4800000, guid: 5658267ca307f3f48917da4d1b175850, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 4
+      - keywords: DIRECTIONAL
+        passType: 4
+      - keywords: POINT
+        passType: 5
+      - keywords: 
+        passType: 6
+      - keywords: 
+        passType: 7
+      - keywords: 
+        passType: 8
+      - keywords: SHADOWS_DEPTH
+        passType: 8
+      - keywords: 
+        passType: 10
+      - keywords: 
+        passType: 11
+  - first: {fileID: 4800000, guid: 3f8158eb877ee074bb9a6d860a68f7b4, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 4
+      - keywords: DIRECTIONAL
+        passType: 4
+      - keywords: POINT
+        passType: 5
+      - keywords: 
+        passType: 8
+      - keywords: SHADOWS_DEPTH
+        passType: 8
+      - keywords: 
+        passType: 10
+      - keywords: 
+        passType: 11
+  - first: {fileID: 4800000, guid: 1a15920545f3fdc4ab1bad341a41c68e, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 4
+      - keywords: DIRECTIONAL
+        passType: 4
+      - keywords: POINT
+        passType: 5
+      - keywords: 
+        passType: 8
+      - keywords: SHADOWS_DEPTH
+        passType: 8
+      - keywords: 
+        passType: 10
+      - keywords: 
+        passType: 11
+  - first: {fileID: 4800000, guid: 52513bf9adba64c4b85ded1e062bd4ec, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL
+        passType: 4
+      - keywords: POINT
+        passType: 5
+      - keywords: SHADOWS_DEPTH
+        passType: 8
+      - keywords: 
+        passType: 10
+      - keywords: 
+        passType: 11
+  - first: {fileID: 4800000, guid: 0e9c28f203b5c1448b6dc6ba2a382eaa, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL
+        passType: 4
+      - keywords: POINT
+        passType: 5
+      - keywords: 
+        passType: 11
+  - first: {fileID: 4800000, guid: e2243b1f0dd20a1458b40a8fd6c47e87, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 4
+      - keywords: DIRECTIONAL
+        passType: 4
+      - keywords: POINT
+        passType: 5
+      - keywords: 
+        passType: 8
+      - keywords: SHADOWS_DEPTH UNITY_PASS_SHADOWCASTER
+        passType: 8
+      - keywords: 
+        passType: 10
+      - keywords: 
+        passType: 11
+  - first: {fileID: 4800000, guid: 29b3d7cb4b207054da6fd7087195fd50, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL
+        passType: 4
+      - keywords: POINT
+        passType: 5
+      - keywords: 
+        passType: 10
+      - keywords: 
+        passType: 11
+  - first: {fileID: 4800000, guid: d30e67ebb13fd0042ac39ec9ac270db9, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 4
+      - keywords: DIRECTIONAL
+        passType: 4
+      - keywords: POINT
+        passType: 5
+      - keywords: 
+        passType: 8
+      - keywords: SHADOWS_DEPTH UNITY_PASS_SHADOWCASTER
+        passType: 8
+      - keywords: 
+        passType: 10
+      - keywords: 
+        passType: 11
+  - first: {fileID: 4800000, guid: 3790b15471c056e45b75496241c473e7, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL
+        passType: 4
+      - keywords: POINT
+        passType: 5
+      - keywords: SHADOWS_DEPTH
+        passType: 8
+      - keywords: 
+        passType: 10
+      - keywords: 
+        passType: 11
+  - first: {fileID: 4800000, guid: 98c154ace3ec9c8459232264a744fa15, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL
+        passType: 4
+      - keywords: POINT
+        passType: 5
+      - keywords: 
+        passType: 10
+      - keywords: 
+        passType: 11
+  - first: {fileID: 4800000, guid: ce879b40cd0a8f64cab0b457029dfeca, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 4
+      - keywords: DIRECTIONAL
+        passType: 4
+      - keywords: POINT
+        passType: 5
+      - keywords: 
+        passType: 8
+      - keywords: SHADOWS_DEPTH
+        passType: 8
+      - keywords: 
+        passType: 10
+      - keywords: 
+        passType: 11
